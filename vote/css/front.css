@@ -1,0 +1,301 @@
+body {
+    font-family: "微软雅黑";
+    background-color:#F3F3F3;
+}
+.header{
+    margin:auto;
+    width:960px;
+    height:100px;
+    background-color:#fff;
+}
+.headleft{
+    float:left;
+    width:300px;
+    height:inherit;
+}
+.headleft img{
+    margin-left:5px;
+    margin-top:10px;
+    width:320px;
+    height:80px;
+}
+.headright{
+    float:right;
+    position: relative;
+    width:660px;
+    height:100px;
+}
+.headright .kaifang{
+    width:530px;
+    font-family:"微软雅黑";
+    font-weight:bold;
+    font-size:35px;
+    color:#467996;
+    height:100px;
+    text-align:center;
+    line-height:100px;
+}
+.headright a{
+    font-size:16px;
+    color:#467996;
+    font-weight: bold;
+    position: absolute;
+    right: 148px;
+    bottom:29px;
+}
+.xiaoxun{
+    position:absolute;
+    right:5px;
+    top:17px;
+    width:146px;
+    height:66px;
+
+}
+.tip{
+    width: 960px;
+    height:285px;
+    margin:20px auto;
+   background-color:#fff;
+}
+.tip img{
+    margin-left:40px;
+    float: left;
+    
+}
+ul.tips{
+    width:580px;
+    padding:30px;
+    margin-left: 400px;
+}
+ul.tips li{
+    height:35px;
+    line-height: 35px;
+    color: #767676;
+}
+.firstLi{
+    font-weight: bold;
+}
+
+.award{
+    width: 960px;
+   /*  background-color:#fff; */
+    margin:0 auto;
+}
+.award h2{
+     background-color:#fff;
+    border-left: 4px solid #467996;
+    font-size:20px;
+    color:#5F5F5F;
+    font-weight: normal;
+    height:40px;
+    line-height: 40px;
+    padding: 10px;
+}
+.award ul{
+   /*  margin:10px; */
+   margin:15px auto;
+    background-color:#fff;
+}
+.award ul li{
+    width:187px;
+   /*  height:270px; */
+    text-align:center;
+    background-color:#fff;
+    float: left;
+    margin-left:4px;
+}
+.award img{
+    margin-top:7px;
+    margin-bottom:5px;
+    width:167px;
+    height:192px;
+}
+.award ul li span,.award ul li a{
+     color: #767676;
+}
+.award ul li button{
+    width:145px;
+    height:28px;
+    font-size:16px;
+    background-color:#00b7ee;
+    color:#fff;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    margin-top:10px;
+}
+.footer{
+    width:960px;
+    margin:0 auto;
+    border-top:2px solid #467996;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.footer span{
+    color:#767676;
+    height:50px;
+    line-height:50px;
+
+}
+.footer span a{
+    color:#767676;
+}
+
+/* 登陆页面 */
+#wrap {
+    background: url(../images/loginbg.jpg) no-repeat;
+    width: 100%;
+    height: 666px;
+    position: relative;
+}
+#wrap img {
+    position: absolute;
+    top: 72px;
+    left: 104px;
+}
+#wrap h1 {
+    position: absolute;
+    top: 124px;
+    left: 742px;
+    font-size: 54px;
+    font-weight: normal;
+    color: #6ca9c8;
+}
+#wrap #login {
+    width: 344px;
+    height: 222px;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    background: #c7e0dd;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#wrap #login h2 {
+    margin: 28px 0 0 58px;
+    font-size: 24px;
+    color: #7E7777;
+    font-weight: normal;
+    line-height: 28px;
+}
+#wrap #login h2 .icon1 {
+    display: inline-block;
+    height: 26px;
+    width: 21px;
+    margin-bottom: -4px;
+    margin-right: 14px;
+    background: url(../images/icon1.jpg) no-repeat left center;
+}
+#wrap #login h2 .user {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+}
+#wrap #login .text, .password {
+    width: 204px;
+    height: 22px;
+    margin-left: 58px;
+    outline: none;
+    line-height: 22px;
+    font-size: 16px;
+    border: none;
+}
+#wrap #login .text {
+    margin-top: 26px;
+    padding-left: 20px;
+    background: url(../images/icon-user.jpg) no-repeat left;
+    background-color: #ffffff;
+}
+#wrap #login .password {
+    margin-top: 22px;
+    padding-left: 20px;
+    background: url(../images/icon-pass.jpg) no-repeat left;
+    background-color: #fff;
+}
+#wrap #login .sub, .reset {
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+#wrap #login .sub {
+    margin-left: 62px;
+    margin-right: 46px;
+    background-color: #E93D06;
+}
+#wrap #login .reset {
+    background-color: #7F6F6F;
+}
+/* 二级页面 */
+.introduce{
+    width:960px;
+    margin:10px auto;
+}
+.introduce h2{
+    line-height:50px;
+    height:50px;
+    font-size:20px;
+    color:#fff;
+    background-color:#467996;
+    text-indent:2em;
+}
+.intContent{
+    background-color:#fff;
+    margin-top:10px;
+}
+.intContent img{
+    width: 220px;
+    height:300px;
+    margin:50px 40px 20px 50px;
+    float: left;
+}
+.side{
+    margin-left: 320px;
+    padding-top: 50px;
+    position: relative;
+}
+.secName{
+    font-size:35px;
+    height:40px;
+    line-height:40px;
+    color:#467996;
+}
+.side a{
+    font-size:20px;
+    position: absolute;
+    right:40px;
+    top:60px;
+}
+.side a:hover{
+    text-decoration:underline;
+}
+.primary{
+    color:#8c8b8b;
+    font-size:15px;
+    line-height:23px;
+    margin-top:20px;
+    margin-left:20px;
+    padding-left:30px;
+    padding-right:40px; 
+    text-align:justify;
+    text-indent:2em;
+}
+.table{
+    width:840px;
+    margin:30px auto;
+    padding-bottom:20px;
+    font-size:14px;
+    color:#000;
+}
